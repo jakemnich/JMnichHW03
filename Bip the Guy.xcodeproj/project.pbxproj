@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC127A7B1E42864400018734 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC127A7A1E42864400018734 /* AppDelegate.swift */; };
+		EC127A7D1E42864400018734 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC127A7C1E42864400018734 /* ViewController.swift */; };
+		EC127A801E42864400018734 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC127A7E1E42864400018734 /* Main.storyboard */; };
+		EC127A821E42864400018734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC127A811E42864400018734 /* Assets.xcassets */; };
+		EC127A851E42864400018734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC127A831E42864400018734 /* LaunchScreen.storyboard */; };
+		EC127A901E42864400018734 /* Bip_the_GuyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC127A8F1E42864400018734 /* Bip_the_GuyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC127A8C1E42864400018734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC127A6F1E42864400018734 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC127A761E42864400018734;
+			remoteInfo = "Bip the Guy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC127A771E42864400018734 /* Bip the Guy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bip the Guy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC127A7A1E42864400018734 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC127A7C1E42864400018734 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC127A7F1E42864400018734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC127A811E42864400018734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC127A841E42864400018734 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC127A861E42864400018734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC127A8B1E42864400018734 /* Bip the GuyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bip the GuyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC127A8F1E42864400018734 /* Bip_the_GuyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bip_the_GuyTests.swift; sourceTree = "<group>"; };
+		EC127A911E42864400018734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC127A741E42864400018734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC127A881E42864400018734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC127A6E1E42864400018734 = {
+			isa = PBXGroup;
+			children = (
+				EC127A791E42864400018734 /* Bip the Guy */,
+				EC127A8E1E42864400018734 /* Bip the GuyTests */,
+				EC127A781E42864400018734 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC127A781E42864400018734 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC127A771E42864400018734 /* Bip the Guy.app */,
+				EC127A8B1E42864400018734 /* Bip the GuyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC127A791E42864400018734 /* Bip the Guy */ = {
+			isa = PBXGroup;
+			children = (
+				EC127A7A1E42864400018734 /* AppDelegate.swift */,
+				EC127A7C1E42864400018734 /* ViewController.swift */,
+				EC127A7E1E42864400018734 /* Main.storyboard */,
+				EC127A811E42864400018734 /* Assets.xcassets */,
+				EC127A831E42864400018734 /* LaunchScreen.storyboard */,
+				EC127A861E42864400018734 /* Info.plist */,
+			);
+			path = "Bip the Guy";
+			sourceTree = "<group>";
+		};
+		EC127A8E1E42864400018734 /* Bip the GuyTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC127A8F1E42864400018734 /* Bip_the_GuyTests.swift */,
+				EC127A911E42864400018734 /* Info.plist */,
+			);
+			path = "Bip the GuyTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC127A761E42864400018734 /* Bip the Guy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC127A941E42864400018734 /* Build configuration list for PBXNativeTarget "Bip the Guy" */;
+			buildPhases = (
+				EC127A731E42864400018734 /* Sources */,
+				EC127A741E42864400018734 /* Frameworks */,
+				EC127A751E42864400018734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bip the Guy";
+			productName = "Bip the Guy";
+			productReference = EC127A771E42864400018734 /* Bip the Guy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC127A8A1E42864400018734 /* Bip the GuyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC127A971E42864400018734 /* Build configuration list for PBXNativeTarget "Bip the GuyTests" */;
+			buildPhases = (
+				EC127A871E42864400018734 /* Sources */,
+				EC127A881E42864400018734 /* Frameworks */,
+				EC127A891E42864400018734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC127A8D1E42864400018734 /* PBXTargetDependency */,
+			);
+			name = "Bip the GuyTests";
+			productName = "Bip the GuyTests";
+			productReference = EC127A8B1E42864400018734 /* Bip the GuyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC127A6F1E42864400018734 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jake Mnich";
+				TargetAttributes = {
+					EC127A761E42864400018734 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 552S6RF9W3;
+						ProvisioningStyle = Automatic;
+					};
+					EC127A8A1E42864400018734 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 552S6RF9W3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC127A761E42864400018734;
+					};
+				};
+			};
+			buildConfigurationList = EC127A721E42864400018734 /* Build configuration list for PBXProject "Bip the Guy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC127A6E1E42864400018734;
+			productRefGroup = EC127A781E42864400018734 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC127A761E42864400018734 /* Bip the Guy */,
+				EC127A8A1E42864400018734 /* Bip the GuyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC127A751E42864400018734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC127A851E42864400018734 /* LaunchScreen.storyboard in Resources */,
+				EC127A821E42864400018734 /* Assets.xcassets in Resources */,
+				EC127A801E42864400018734 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC127A891E42864400018734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC127A731E42864400018734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC127A7D1E42864400018734 /* ViewController.swift in Sources */,
+				EC127A7B1E42864400018734 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC127A871E42864400018734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC127A901E42864400018734 /* Bip_the_GuyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC127A8D1E42864400018734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC127A761E42864400018734 /* Bip the Guy */;
+			targetProxy = EC127A8C1E42864400018734 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC127A7E1E42864400018734 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC127A7F1E42864400018734 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC127A831E42864400018734 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC127A841E42864400018734 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC127A921E42864400018734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC127A931E42864400018734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC127A951E42864400018734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 552S6RF9W3;
+				INFOPLIST_FILE = "Bip the Guy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jmnich.Bip-the-Guy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EC127A961E42864400018734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 552S6RF9W3;
+				INFOPLIST_FILE = "Bip the Guy/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jmnich.Bip-the-Guy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EC127A981E42864400018734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 552S6RF9W3;
+				INFOPLIST_FILE = "Bip the GuyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jmnich.Bip-the-GuyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bip the Guy.app/Bip the Guy";
+			};
+			name = Debug;
+		};
+		EC127A991E42864400018734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 552S6RF9W3;
+				INFOPLIST_FILE = "Bip the GuyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jmnich.Bip-the-GuyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bip the Guy.app/Bip the Guy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC127A721E42864400018734 /* Build configuration list for PBXProject "Bip the Guy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC127A921E42864400018734 /* Debug */,
+				EC127A931E42864400018734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC127A941E42864400018734 /* Build configuration list for PBXNativeTarget "Bip the Guy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC127A951E42864400018734 /* Debug */,
+				EC127A961E42864400018734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC127A971E42864400018734 /* Build configuration list for PBXNativeTarget "Bip the GuyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC127A981E42864400018734 /* Debug */,
+				EC127A991E42864400018734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC127A6F1E42864400018734 /* Project object */;
+}
